@@ -7,6 +7,7 @@ var logger = require("morgan");
 var indexRouter = require("./lib/routes/index");
 var usersRouter = require("./lib/routes/users");
 var topupRouter = require("./lib/routes/topup");
+var oauthBffRouter = require("./lib/routes/oauth_bff")
 
 var app = express();
 

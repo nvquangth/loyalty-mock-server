@@ -44,4 +44,6 @@ export enum ResponseCode {
   SUCCESS = 0,
   ERROR = -1,
   UNAUTHORIZED = 201,
+  GREED = 429,
+  EMPTY_FIELD = 400201
 }
